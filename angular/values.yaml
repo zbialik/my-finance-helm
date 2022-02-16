@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: zach17/my-finance
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
