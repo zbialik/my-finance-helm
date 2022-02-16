@@ -1,3 +1,4 @@
+{{- if .Values.ingress.enabled -}}
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -11,13 +12,16 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$2
 spec:
   rules:
-    - host: zb-macbook.local
+  {{- range .Values.ingress.hosts }}
+    - host: {{ . }}
       http:
         paths:
-        - path: /my-finance(/|$)(.*)
+        - path: {{ $.Values.ingress.path }}(/|$)(.*)
           pathType: Prefix
           backend:
             service:
-              name: {{ template "angular.fullname" . }}
+              name: {{ template "angular.fullname" $ }}
               port:
-                number: {{ .Values.service.port }}
+                number: {{ $.Values.service.port }}
+  {{- end -}}
+{{- end -}}
