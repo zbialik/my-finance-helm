@@ -8,18 +8,16 @@ metadata:
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
   annotations:
-    # nginx.ingress.kubernetes.io/app-root: /my-finance
     nginx.ingress.kubernetes.io/rewrite-target: /$2
 spec:
   rules:
     - host: zb-macbook.local
       http:
         paths:
-          # - path: /my-finance
-          - path: /my-finance(/|$)(.*)
-            pathType: Prefix
-            backend:
-              service:
-                name: {{ template "angular.fullname" . }}
-                port:
-                  number: {{ .Values.service.port }}
+        - path: /my-finance(/|$)(.*)
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ template "angular.fullname" . }}
+              port:
+                number: {{ .Values.service.port }}
