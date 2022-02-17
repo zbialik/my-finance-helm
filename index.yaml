@@ -3,6 +3,16 @@ entries:
   angular:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-17T22:15:59.318550879Z"
+    description: A Helm chart for angular apps in Kubernetes
+    digest: 9e278d90ccc28a15bee0fa3dfe7a968264670ece61c1d73fdbedb177758b9992
+    name: angular
+    type: application
+    urls:
+    - https://github.com/zbialik/helm/releases/download/angular-0.1.1/angular-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-17T21:45:57.617199396Z"
     description: A Helm chart for angular apps in Kubernetes
     digest: fee54b4ee77a4831dcb2f7c750b45cd0aef8cc74d73497b869ecf4aaa1d45d81
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/zbialik/helm/releases/download/angular-0.1.0/angular-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-17T21:45:57.617205396Z"
+generated: "2022-02-17T22:15:59.318558379Z"
