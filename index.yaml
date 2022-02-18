@@ -61,4 +61,15 @@ entries:
     urls:
     - https://github.com/zbialik/helm/releases/download/angular-0.1.0/angular-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-18T14:21:51.186413837Z"
+  argo-apps:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-02-18T15:08:02.869081333Z"
+    description: A Helm chart for argo apps via App of Apps design
+    digest: 6914f4829908feefadd8ca30d0cdbb8a08fea55d52b720a9362a3199d4eaf954
+    name: argo-apps
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.5/argo-apps-0.1.5.tgz
+    version: 0.1.5
+generated: "2022-02-18T15:08:02.869097433Z"
