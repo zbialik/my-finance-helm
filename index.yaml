@@ -64,6 +64,16 @@ entries:
   argo-apps:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-18T16:55:06.708675767Z"
+    description: A Helm chart for argo apps via App of Apps design
+    digest: 570f1e54fb324e30bdb981f5399df1289b0c390ea1ec96a6eef12f6f0d335237
+    name: argo-apps
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.9/argo-apps-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-18T16:11:23.226004737Z"
     description: A Helm chart for argo apps via App of Apps design
     digest: 1d966ac9c285713538612030675de35099ace224bddcf6b8c73830d762987562
@@ -102,4 +112,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.5/argo-apps-0.1.5.tgz
     version: 0.1.5
-generated: "2022-02-18T16:11:23.226033037Z"
+generated: "2022-02-18T16:55:06.708993768Z"
