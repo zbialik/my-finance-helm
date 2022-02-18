@@ -1,5 +1,3 @@
-argoNamespace: argocd
-
 spec:
   destination:
     server: https://kubernetes.default.svc

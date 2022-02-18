@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: my-finance-ui
-  namespace: {{ .Values.argoNamespace }}
+  namespace: {{ .Release.Namespace }}
 spec:
   project: default
   source:
