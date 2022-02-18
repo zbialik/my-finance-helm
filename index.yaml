@@ -3,6 +3,16 @@ entries:
   angular:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-18T17:01:22.072129276Z"
+    description: A Helm chart for angular apps in Kubernetes
+    digest: f360c4390a00d8c87bd931e42866d030e4bd93486072abde0d32a49ac605ff2c
+    name: angular
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/angular-0.1.6/angular-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-18T14:21:51.186105735Z"
     description: A Helm chart for angular apps in Kubernetes
     digest: 7d37d4701681fa5f589b92d6ce83ad5313824d7c4bb23ac23b4e3f3b968c7b21
@@ -64,14 +74,14 @@ entries:
   argo-apps:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-02-18T16:55:06.708675767Z"
+    created: "2022-02-18T17:01:22.245138134Z"
     description: A Helm chart for argo apps via App of Apps design
-    digest: 570f1e54fb324e30bdb981f5399df1289b0c390ea1ec96a6eef12f6f0d335237
+    digest: 0dac2e1ece02d9eea379552fa40faf0c986f864864c68e013081e5bfe9b1f94b
     name: argo-apps
     type: application
     urls:
-    - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.9/argo-apps-0.1.9.tgz
-    version: 0.1.9
+    - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.10/argo-apps-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: "1.0"
     created: "2022-02-18T16:11:23.226004737Z"
@@ -112,4 +122,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.5/argo-apps-0.1.5.tgz
     version: 0.1.5
-generated: "2022-02-18T16:55:06.708993768Z"
+generated: "2022-02-18T17:01:22.245345337Z"
