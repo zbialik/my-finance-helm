@@ -11,9 +11,6 @@ spec:
     targetRevision: {{ .Values.spec.source.targetRevision }}
     helm:
       releaseName: my-finance-ui
-      parameters:
-        - name: spec.source.targetRevision
-          value: '*'
   destination:
     server: https://kubernetes.default.svc
     namespace: frontend
