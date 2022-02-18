@@ -3,6 +3,16 @@ entries:
   angular:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-18T17:34:43.497081355Z"
+    description: A Helm chart for angular apps in Kubernetes
+    digest: 019a5f60355821a32e8aed348dd2adaee9f366db8e5d79445daf8672f371e922
+    name: angular
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/angular-0.1.7/angular-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-18T17:01:22.072129276Z"
     description: A Helm chart for angular apps in Kubernetes
     digest: f360c4390a00d8c87bd931e42866d030e4bd93486072abde0d32a49ac605ff2c
@@ -142,4 +152,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.5/argo-apps-0.1.5.tgz
     version: 0.1.5
-generated: "2022-02-18T17:28:06.696610541Z"
+generated: "2022-02-18T17:34:43.497121455Z"
