@@ -13,7 +13,7 @@ spec:
       releaseName: my-finance-ui
       parameters:
         - name: spec.source.targetRevision
-          value: ''
+          value: '*'
   destination:
     server: https://kubernetes.default.svc
     namespace: frontend
