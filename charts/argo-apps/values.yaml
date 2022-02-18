@@ -3,4 +3,4 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://zbialik.github.io/my-finance-helm
-    targetRevision: HEAD
+    targetRevision: "*"
