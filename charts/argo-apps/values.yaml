@@ -14,4 +14,4 @@ baseApps:
   - name: plaid-service
     namespace: backend
     chart: python
-    targetRevision: "*"
+    targetRevision: ">=0.0.0"
