@@ -3,6 +3,16 @@ entries:
   angular:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-21T16:24:12.282871309Z"
+    description: A Helm chart for angular apps in Kubernetes
+    digest: 4a5e4e6f1d2e0c0c66eb93ccb31dd031c8dc4c4dd200862ea667ed0714251a26
+    name: angular
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/angular-0.1.8/angular-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-18T17:34:43.497081355Z"
     description: A Helm chart for angular apps in Kubernetes
     digest: 019a5f60355821a32e8aed348dd2adaee9f366db8e5d79445daf8672f371e922
@@ -183,4 +193,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/python-0.1.0/python-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-21T16:22:39.852925201Z"
+generated: "2022-02-21T16:24:12.283043107Z"
