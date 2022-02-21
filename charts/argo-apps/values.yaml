@@ -5,14 +5,13 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://zbialik.github.io/my-finance-helm
-    targetRevision: "*"
 
 baseApps:
   - name: my-finance-ui
     namespace: frontend
     chart: angular
-    targetRevision: ""
+    targetRevision: ">=0.0.0"
   - name: plaid-service
     namespace: backend
     chart: python
-    targetRevision: ""
+    targetRevision: "*"
