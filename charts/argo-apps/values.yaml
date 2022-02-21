@@ -6,3 +6,13 @@ spec:
   source:
     repoURL: https://zbialik.github.io/my-finance-helm
     targetRevision: "*"
+
+baseApps:
+  - name: my-finance-ui
+    namespace: frontend
+    chart: angular
+    targetRevision: ""
+  - name: plaid-service
+    namespace: backend
+    chart: python
+    targetRevision: ""
