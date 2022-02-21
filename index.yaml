@@ -185,6 +185,16 @@ entries:
   python:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-21T16:52:34.605130112Z"
+    description: A Helm chart for Kubernetes
+    digest: 4e7090ae5afa51aa5cef8c05a000197f78e589f2aa5542cd62c23bdec01ee0e6
+    name: python
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/python-0.1.2/python-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-21T16:22:39.852864698Z"
     description: A Helm chart for Kubernetes
     digest: ea45d3a404cdadbce4deaf19ef899dc4242b10dc50c768bc7c852392498bc8c9
@@ -203,4 +213,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/python-0.1.0/python-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-21T16:48:11.445886504Z"
+generated: "2022-02-21T16:52:34.605443514Z"
