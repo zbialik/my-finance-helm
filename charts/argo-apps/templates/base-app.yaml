@@ -1,4 +1,4 @@
-{{- range .Values.baseApps }}
+{{ range .Values.baseApps }}
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -10,7 +10,7 @@ spec:
   source:
     chart: {{ .chart }}
     repoURL: {{ $.Values.spec.source.repoURL }}
-    targetRevision: {{ .targetRevision }}
+    targetRevision: {{ .targetRevision | quote}}
     helm:
       releaseName: {{ .name }}
   destination:
@@ -22,4 +22,5 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
 {{- end }}
