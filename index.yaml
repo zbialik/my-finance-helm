@@ -84,6 +84,16 @@ entries:
   argo-apps:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-02-21T16:22:39.683625536Z"
+    description: A Helm chart for argo apps via App of Apps design
+    digest: 57100721501666420df430e7c578ee14ede1911b6d0d74dc5ca6ab9ad4efcbda
+    name: argo-apps
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/argo-apps-0.1.13/argo-apps-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-02-18T17:28:06.696570541Z"
     description: A Helm chart for argo apps via App of Apps design
     digest: d01cc00fc219b6c8c8e50afdf16e59d5687b52acff5951c96633fb230b731f68
@@ -155,6 +165,16 @@ entries:
   python:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-21T16:22:39.852864698Z"
+    description: A Helm chart for Kubernetes
+    digest: ea45d3a404cdadbce4deaf19ef899dc4242b10dc50c768bc7c852392498bc8c9
+    name: python
+    type: application
+    urls:
+    - https://github.com/zbialik/my-finance-helm/releases/download/python-0.1.1/python-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-21T16:15:59.387890735Z"
     description: A Helm chart for Kubernetes
     digest: c6c191929e1905cd4a1e814e0d74722dd1dbe8b8704434c5d3024702de8a0360
@@ -163,4 +183,4 @@ entries:
     urls:
     - https://github.com/zbialik/my-finance-helm/releases/download/python-0.1.0/python-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-21T16:15:59.388134137Z"
+generated: "2022-02-21T16:22:39.852925201Z"
